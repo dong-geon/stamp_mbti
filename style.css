@@ -1,0 +1,281 @@
+.numberPC {
+    width: 10%;
+    margin-left: 59%;
+}
+.numberMobile {
+    width: 10%;
+    margin-left: 77%;
+}
+.progress-bar {
+    background-color: #dc3545;
+}
+.btn-outline-dark {
+    border-color: rgba(0 0 0 / 0%)
+}
+.btn-outline-dark:focus {
+    box-shadow: none;
+}
+.pgrPC {
+    width: 30%;
+    margin-left: 35%;
+}
+.pgrMobile {
+    margin-left: 10%;
+    width: 80%;
+}
+
+#fade {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+@font-face {
+    src: url(/fonts/ImcreSoojin\ OTF.otf);
+    font-family: "spotlight";
+}
+
+body{
+    font-family: 'spotlight';
+    height: 100%;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:2;
+    }
+}
+
+.btn {
+    width: 50%;
+    background-color: white;
+    border-radius: 1rem;
+}
+.article {
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    list-style: circle;
+    display: block;
+    width: 350px;
+    margin:0 auto;
+    font-size: 17px;
+}
+li {
+    text-align: justify;
+}
+.questionPC {
+    font-size: 30px;
+}
+.questionMobile {
+    font-size: 20px;
+}
+.qbtnPC {
+    width: 30%;
+    font-size: 18px;
+}
+.epcontentPC {
+    line-height: 130%;
+    font-size: 30px;
+}
+.epcontentMobile {
+    line-height: 130%;
+    font-size: 21px;
+}
+#sub {
+    width: 150px;
+    display: inline-block;
+}
+
+#startButton {
+    width:30%;
+    margin:0 auto;
+}
+#button {
+    width:30%;
+    margin:0 auto;
+}
+#resultbtn {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+} 
+.chemist {
+    text-align: center;
+    width: 30%;
+    margin-top: 3%;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#title {
+    line-height: 130%;
+}
+.question {
+    display: none;
+}
+
+.episode {
+    display: none;
+}
+
+#img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.resultimgPC {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.resultimgMobile {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+}
+.chemiPC {
+    display: block;
+    width: 420px;
+    margin: 0 auto;
+}
+.chemiMobile {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.mainimgPC {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+.mainimgMobile {
+    display: block;
+    width: 370px;
+    margin: 0 auto;
+}
+.resulttitlePC {
+    width:600px;
+    display: block;
+    margin: 0 auto;
+}
+.resulttitleMobile {
+    width:300px;
+    display: block;
+    margin: 0 auto;
+}
+.epimg {
+    width: 200px;
+    display: block;
+    margin: auto;
+    height: 30%;
+}
+
+.share {
+    display: block;
+    margin: 0 auto;
+}
+
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.banner {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+.footer {
+    width: 100%;
+    bottom: 0;
+    height: 200px;
+    background: white;
+}
+
+.all {
+    color: white;
+}
+.mainB {
+    background-color: #3C3C3C;
+}
+.result1 {
+    background-color: #733e3e;
+}
+
+.result2 {
+    background-color: #ae603e;
+}
+.result3 {
+    background-color: #bd9b40;
+}
+.result4 {
+    background-color: #745f75;
+}
+.result5 {
+    background-color: #5f585e;
+}
+.result6 {
+    background-color: #527c91;
+}
+.result7 {
+    background-color: #4c928e;
+}
+.result8 {
+    background-color: #c06f79;
+}
+.result9 {
+    background-color: #39634d;
+}
+.result10 {
+    background-color: #39595c;
+}
+.result11 {
+    background-color: #908d3f;
+}
+.result12 {
+    background-color: #6f3951;
+}
+.result13 {
+    background-color: #383b5c;
+}
+.result14 {
+    background-color: #304f5f;
+}
+.result15 {
+    background-color: #4f3d59;
+}
+.result16 {
+    background-color: #593a59;
+}
